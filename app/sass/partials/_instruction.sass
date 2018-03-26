@@ -1,0 +1,60 @@
+.instruction
+    padding-top: 5em
+    &-wrapper
+        background: url("../img/img-block-2.jpg")
+        background-size: cover
+        background-repeat: no-repeat
+        box-shadow: 0 7px 34px 5px #dcd8ef
+        text-align: center
+        opacity: 0
+        overflow: hidden
+        & h2
+            padding-top: 10px
+
+        & .external-box
+            display: flex
+            text-align: center
+            & .left-part
+                margin-left: 14em
+                width: 39%
+                text-align: left
+                p
+                    font-weight: 300
+                    margin: 15px 0
+                    font-size: $size-16
+                span
+                    display: inline-block
+                    font-size: $size-18
+                    font-weight: 400
+                    margin-bottom: 0.4em
+                & .heading
+                    font-size: $size-18
+                    font-weight: 400
+                    color: $c-red
+                    margin-top: 25px
+                    margin-bottom: 10px
+
+            .instruction-list
+                padding-left: 2em
+                padding-bottom: 5em
+
+            .list__item
+                padding-left: 1em
+                font-size: $size-16
+                font-weight: 300
+                color: $c-gray
+    &__form
+        position: relative
+        transform: translateY(30%)
+        opacity: 0
+    &__composition
+        position: relative
+        transform: translateY(10%)
+        opacity: 0
+
+    &__indication
+        position: relative
+        transform: translateY(10%)
+        opacity: 0
+    & img
+        opacity: 0

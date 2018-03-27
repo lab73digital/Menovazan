@@ -36,6 +36,10 @@ $(document).ready(function() {
             autoAlpha: 1,
             delay: 0.3
         })
+        .to('.overview-mob-prod', 0.3, {
+            autoAlpha: 1,
+            delay: 0.3
+        }, "-=0.8")
         .to('h1', 0.3, {
             autoAlpha: 1
         })
